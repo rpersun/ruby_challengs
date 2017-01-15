@@ -1,0 +1,17 @@
+print "What is the weather like?"
+weather = gets.chomp
+
+case weather
+when "sunny" 
+	puts"Since it is #{weather} outside, let's go out and play."
+when "cloudy" 
+	puts"Since it is #{weather} outside,let's go out, but take an umbrella just in case."
+when "foggy" 
+	puts"Since it is #{weather} outside, Let's wait until the fog lifts."
+when "rainy" 
+	puts"Since it is #{weather} outside,let's stay inside and watch a movie."
+when "snowy" 
+	puts"Since it is #{weather} outside, let's go sledding."
+end
+
+ 
